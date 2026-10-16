@@ -1,0 +1,1634 @@
+{
+  "brand": {
+    "mark": {
+      "src": "/brand/r7-mark.webp",
+      "width": 215,
+      "height": 360
+    }
+  },
+  "images": {
+    "portrait-muhammed-rifad": {
+      "src": "/media/images/portrait-muhammed-rifad",
+      "width": 2000,
+      "height": 3000,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAABQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JYwAD5eoC6glx7bUz3w/rrlPAAP624yGPHh5OksgLeRYAcs6sykN9K2O79Li97HTSUq6HmfnEve/KEjo8TdNsw47zsrBmDx9+Yd8pkMZQKXed9qX55JBKeZObqn/zkXscHQX4tSoZq+eW7I+W4xfTVQjer0Ooswn8+dVpRR1nDwAA",
+      "story": "about",
+      "chapter": null,
+      "categories": [],
+      "focal": "50% 35%",
+      "alt": {
+        "en": "Muhammed Rifad TV standing on a city promenade",
+        "ar": "Muhammed Rifad TV على ممشى في المدينة"
+      }
+    },
+    "automotive-camaro-desert-sunset": {
+      "src": "/media/images/automotive-camaro-desert-sunset",
+      "width": 2000,
+      "height": 2666,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACQAwCdASoQABUAPu1iqU2ppaQiMAgBMB2JQBYdhDrivoVPIpcAAP7tQgf489jNZMpLH5j7jXxJog0sjwwNsiaTmmRVZvmqLB4AAA==",
+      "story": "automotive",
+      "chapter": null,
+      "categories": [
+        "automotive"
+      ],
+      "focal": "50% 55%",
+      "alt": {
+        "en": "Red Chevrolet Camaro on an empty desert road at sunset",
+        "ar": "سيارة شيفروليه كامارو حمراء على طريق صحراوي خالٍ عند الغروب"
+      }
+    },
+    "automotive-underpass-trio": {
+      "src": "/media/images/automotive-underpass-trio",
+      "width": 2000,
+      "height": 2667,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACwAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JZwDCgBa3sdH6f+MAAAD+5aCQnGInAagnLMuKkpHGcO8t3wYOcd03iQd3XrM2uxI1BS0cFr3Bw1xq62Vj0Ghe2RAAAA==",
+      "story": "automotive",
+      "chapter": null,
+      "categories": [
+        "automotive"
+      ],
+      "focal": "50% 60%",
+      "alt": {
+        "en": "Three wrapped muscle cars lined up beneath a concrete overpass",
+        "ar": "ثلاث سيارات رياضية بتغليف لافت مصطفّة تحت جسر خرساني"
+      }
+    },
+    "automotive-mustang-scissor-doors": {
+      "src": "/media/images/automotive-mustang-scissor-doors",
+      "width": 2000,
+      "height": 2649,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAAAQBACdASoQABUAPu1iqU2ppaOiMAgBMB2JQBOgO4AeH5iYhSrsHkpoAAD+4j0vVxTASdE6DHyS+xAyH9y1LrpzS+c/HWm/r26vm8J7i/f7sFXJoKcmXnqsKZEEaOAFfVpOvQjvzcted7H0SLsXnfQpX/MdDJgtD+eOtfeiM2HVJYAA",
+      "story": "automotive",
+      "chapter": null,
+      "categories": [
+        "automotive"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Red and black Ford Mustang with its scissor doors raised, photographed head-on",
+        "ar": "سيارة فورد موستانغ بالأحمر والأسود وأبوابها المقصّية مرفوعة، من زاوية أمامية"
+      }
+    },
+    "automotive-camaro-sunset-rear": {
+      "src": "/media/images/automotive-camaro-sunset-rear",
+      "width": 2000,
+      "height": 2666,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAABQAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JZgAAP78WfflkAAD+V3+3C1FmkBb1fGMTURdnzc4P/79f/+ydczmmH/P/MYSYFqVqgAAA",
+      "story": "automotive",
+      "chapter": null,
+      "categories": [
+        "automotive"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Rear of a red Camaro with glowing tail lights on a desert highway at dusk",
+        "ar": "مؤخرة سيارة كامارو حمراء بأضوائها الخلفية المتوهّجة على طريق صحراوي عند الغسق"
+      }
+    },
+    "automotive-camaro-sunset-front": {
+      "src": "/media/images/automotive-camaro-sunset-front",
+      "width": 2000,
+      "height": 2664,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JQBOmUABpugQmDXxf5bAA/ucp7uFKpqJdCtNoQXWmzXjR3l+WCCS7SYyjpEd8iljwAA==",
+      "story": "automotive",
+      "chapter": null,
+      "categories": [
+        "automotive"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Red Camaro approaching head-on along a desert road under a hazy sun",
+        "ar": "سيارة كامارو حمراء تتقدّم على طريق صحراوي تحت شمس يكسوها الضباب"
+      }
+    },
+    "automotive-supra-park": {
+      "src": "/media/images/automotive-supra-park",
+      "width": 1440,
+      "height": 1920,
+      "widths": [
+        480,
+        800,
+        1200,
+        1440
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAADQAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JQBhQMWqblf7asQBlwAAA/mAt6SWk5oU+wRPojIiS4ZwF5Pr7xD5dDOZytmR0bacVPGteitQyx+L9XnuSXkhNI6zSeG2MjAfpgCXanBOXi1ypYNqwj+jlE7urIfha1XgH4ejB0VfGMkilcAA=",
+      "story": "automotive",
+      "chapter": null,
+      "categories": [
+        "automotive"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "White Toyota Supra parked on grass among trees",
+        "ar": "سيارة تويوتا سوبرا بيضاء متوقفة على العشب بين الأشجار"
+      }
+    },
+    "automotive-supra-detail": {
+      "src": "/media/images/automotive-supra-detail",
+      "width": 1440,
+      "height": 1920,
+      "widths": [
+        480,
+        800,
+        1200,
+        1440
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAADwAwCdASoQABUAPu1iqU2ppaQiMAgBMB2JQBfnA1f/6MekxL2A6zHAAP6GWCV4ZGof8U3P8EMbwWReVhl5vuOtFAqOcVCSVg5dSpOxn3fAninGfBtRVQKyiC7huFWG+6UVJ5td8xlrdFAS/5Oj0qPTB1ix8GWkQzjYNYG7TVh4dtymHqspZyI57DIAAA==",
+      "story": "automotive",
+      "chapter": null,
+      "categories": [
+        "automotive"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Rear spoiler of a white Toyota Supra framed by a tree trunk",
+        "ar": "الجناح الخلفي لسيارة تويوتا سوبرا بيضاء يؤطّره جذع شجرة"
+      }
+    },
+    "automotive-panning-curve": {
+      "src": "/media/images/automotive-panning-curve",
+      "width": 2000,
+      "height": 2426,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwBACdASoQABMAPu1iqU2ppaOiMAgBMB2JZwDA3B4jlv+AJH8HcFHMTxAA/rALwpHDtdwxEzAjXIrz/kU8zBMcavRV6YP1N/uYEeTenn9vRXTNAcOKjDCvvFnFi4AA",
+      "story": "automotive",
+      "chapter": null,
+      "categories": [
+        "automotive"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Teal sedan cornering on a forest road, captured with a motion-blur pan",
+        "ar": "سيارة سيدان فيروزية تنعطف على طريق في الغابة، ملتقطة بتقنية التتبّع وضبابية الحركة"
+      }
+    },
+    "automotive-panning-hairpin": {
+      "src": "/media/images/automotive-panning-hairpin",
+      "width": 2000,
+      "height": 2426,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAwCdASoQABMAPu1iqU2ppaQiMAgBMB2JZwDLLCHfWSk09izgvwAA/uwhDb8Fj2zAP6Lq1Z1VVRIMRov2rAocAZH9huvaAAA=",
+      "story": "automotive",
+      "chapter": null,
+      "categories": [
+        "automotive"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Teal sedan rounding a hairpin bend with the forest blurred behind it",
+        "ar": "سيارة سيدان فيروزية عند منعطف حادّ والغابة ضبابية خلفها"
+      }
+    },
+    "automotive-g-class-convoy": {
+      "src": "/media/images/automotive-g-class-convoy",
+      "width": 1440,
+      "height": 1920,
+      "widths": [
+        480,
+        800,
+        1200,
+        1440
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACQAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JaQAAW53Lt4ecwLqAAP7nKAeL4sEnlPO+wIvxkS0dE8l2HsrOtszlvmzB6CuupYFZ4AAA",
+      "story": "automotive",
+      "chapter": null,
+      "categories": [
+        "automotive"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Black Mercedes-Benz G-Class leading a line of sports cars on a desert road",
+        "ar": "مرسيدس-بنز الفئة G سوداء تتقدّم صفًّا من السيارات الرياضية على طريق صحراوي"
+      }
+    },
+    "automotive-desert-convoy": {
+      "src": "/media/images/automotive-desert-convoy",
+      "width": 1440,
+      "height": 1920,
+      "widths": [
+        480,
+        800,
+        1200,
+        1440
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAABwAwCdASoQABUAPu1kqU2ppaOiMAgBMB2JZQDCgCHV6fpzfAAA/t6vH8BdWiBql4QUQcsGEJUGNs+wYMQsuMf6iRRC28D7W7jhQ/sPhz9e3NxC/GlGwAAA",
+      "story": "automotive",
+      "chapter": null,
+      "categories": [
+        "automotive"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Convoy of wrapped sports cars on a desert road in soft haze",
+        "ar": "موكب من السيارات الرياضية المغلّفة على طريق صحراوي في ضباب خفيف"
+      }
+    },
+    "automotive-g-class-white": {
+      "src": "/media/images/automotive-g-class-white",
+      "width": 2000,
+      "height": 2667,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JZwDCgB5zzP6WEBHVHtgAAO2ZjufpZ5u6yvRRHZCdZOaqUy16fVjoH4RtfESBH1oJid8DGHR7sAK7eQyjN/4AAAA=",
+      "story": "automotive",
+      "chapter": null,
+      "categories": [
+        "automotive"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "White Mercedes-Benz G-Class on open ground beneath rocky hills",
+        "ar": "مرسيدس-بنز الفئة G بيضاء على أرض مكشوفة أسفل تلال صخرية"
+      }
+    },
+    "automotive-yellow-suv": {
+      "src": "/media/images/automotive-yellow-suv",
+      "width": 2000,
+      "height": 2667,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADQAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JZQAAXE6ITt9HSApd9gAA/u6HCzsW8stIlZmIx1bHDDqhnwBC6Qx2kZsTBim8APCh23jNCah59EZZ95Yp/P88L0I/eAMCjx30PQGyGw3c/ynh3t2kUAAA",
+      "story": "automotive",
+      "chapter": null,
+      "categories": [
+        "automotive"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Yellow SUV on dark paving, framed by shadow in the foreground",
+        "ar": "سيارة دفع رباعي صفراء على رصيف داكن يؤطّرها الظل في المقدّمة"
+      }
+    },
+    "automotive-waterfront-lineup": {
+      "src": "/media/images/automotive-waterfront-lineup",
+      "width": 1440,
+      "height": 1920,
+      "widths": [
+        480,
+        800,
+        1200,
+        1440
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADQAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JQBOmUABsp8CnUl3oUQAA/swDtUtlu6F7aZvoVj0lNMTXelRoEPCToMnzFzmXVPOEgBsk3VelZGM0H0dvsd5lSd+KHC7YbYUHLiPQDejuowfESJPDAAAA",
+      "story": "automotive",
+      "chapter": null,
+      "categories": [
+        "automotive"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Row of sports cars on a waterfront lawn at dusk, seen through tree branches",
+        "ar": "صف من السيارات الرياضية على عشب الواجهة المائية عند الغسق، من بين أغصان الأشجار"
+      }
+    },
+    "nikah-bride-pavilion": {
+      "src": "/media/images/nikah-bride-pavilion",
+      "width": 2000,
+      "height": 3000,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAACQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JYgCsAywYYA20KZ9tjSekp9erb6AA/bmC4mbwLPE2uaXp7ClTaLIZIvHtgTgDKohXY5Z6yaGdgEgW6OhfhCoLinglDIFUhSKWOGSkaOl9IY27PPASrTEfFpdUq3eIVI0giktHQjprA+k61TLm/KrZnh2lBjbG4AA=",
+      "story": "nikah-ceremony",
+      "chapter": "bride",
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 38%",
+      "alt": {
+        "en": "Bride in a red embroidered lehenga standing inside a wooden garden pavilion",
+        "ar": "عروس بلهنغا حمراء مطرّزة تقف داخل جناح خشبي في الحديقة"
+      }
+    },
+    "nikah-jewellery-detail": {
+      "src": "/media/images/nikah-jewellery-detail",
+      "width": 2000,
+      "height": 3000,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAAAQBACdASoQABgAPu1iqU2ppaQiMAgBMB2JZACw7B0bnbwEvfbu4hiRQAD+7JQ+Pdn16DjQqxfo5jCcKulgskbVve8KMeYRcLOXxf9WNrvj7KrrSYrIVVBf3WCIbsOfQejCmgPmDKWiUQAA",
+      "story": "nikah-ceremony",
+      "chapter": "bride",
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Detail of the bride's jewellery and hennaed hand resting on the groom's arm",
+        "ar": "تفاصيل حليّ العروس ويدها المزيّنة بالحناء على ذراع العريس"
+      }
+    },
+    "nikah-signing": {
+      "src": "/media/images/nikah-signing",
+      "width": 2000,
+      "height": 2788,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADQAwCdASoQABYAPu1iqU2ppaOiMAgBMB2JQBOgA4iSV4f4WqNJn5AA9vZxUieYkY7ItAhAc567tB12vpCixbWbGFGsNiRH2hYhwjlgr8V3Ds1QEm0HjphwSCqTqjcimXIaTzDB0QOpkxIA0PoLqwAA",
+      "story": "nikah-ceremony",
+      "chapter": "nikah",
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Bride and groom seated together as the groom signs the marriage certificate",
+        "ar": "العروسان جالسان معًا بينما يوقّع العريس عقد الزواج"
+      }
+    },
+    "nikah-embrace": {
+      "src": "/media/images/nikah-embrace",
+      "width": 2000,
+      "height": 3067,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAQBACdASoQABkAPu1iqk2ppaQiMAgBMB2JYwAAW+vlJYrexABzJJNPgAD+i3otswO/uVuMrzUMmMyvJDBMd72eS/aWaeAUpvYdoc3oirDRz60/D9PnHhl0uQhDhRL86vSn9lJzPYjTOn44Wdkeuw/0VtrkPRcjPb6frDWAAAA=",
+      "story": "nikah-ceremony",
+      "chapter": "nikah",
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Bride and groom embracing in front of white drapes",
+        "ar": "العروسان في عناق أمام ستائر بيضاء"
+      }
+    },
+    "nikah-forehead-kiss": {
+      "src": "/media/images/nikah-forehead-kiss",
+      "width": 2000,
+      "height": 3264,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAADwAwCdASoQABoAPu1iqU2ppaOiMAgBMB2JQBfJA3CTjl3cKMFBfAwAAP7DnRFGXvdBVw0wr/YJ1yuBo+jZvsmP7T7436kQjhnw0KGcyZb9PznlveOn6CyzTm/7MBqdlMUWHHl73AEztpKolzMaY1Mn/vaWNsfxLylpktzDtU2an8SxUAAAAA==",
+      "story": "nikah-ceremony",
+      "chapter": "nikah",
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Groom kissing the bride's forehead",
+        "ar": "العريس يقبّل جبين العروس"
+      }
+    },
+    "nikah-bride-smile": {
+      "src": "/media/images/nikah-bride-smile",
+      "width": 2000,
+      "height": 3000,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JYgC06CLGPGRGYVopkVXsAADLS0BiTSQhvAideCl3mHb3SnjDvtf+JqxK6zvp6A9wbz0YTMR4J6jXM8kvBXIW6QLY6WHUbI2Ua/k0cou3tn0wXeA4gAAA",
+      "story": "nikah-ceremony",
+      "chapter": "nikah",
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Bride smiling at the groom, seen over his shoulder",
+        "ar": "العروس تبتسم للعريس، من فوق كتفه"
+      }
+    },
+    "nikah-arm-in-arm": {
+      "src": "/media/images/nikah-arm-in-arm",
+      "width": 2000,
+      "height": 2886,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAADwAwCdASoQABcAPu1iqU2ppaOiMAgBMB2JQA7gCDYDIs89prgjDuYgAP5RodkMZhRYlf8Sa3ICWBFXn+nkrbIPX9E/86ZkEFL0/sWFA/kriOpzzd862/r/4O1HMqnItZPIC+oqyjztR9Dn35TO9kHiKzVNj8j8PmQygURZZwohA2pozgIn4AAA",
+      "story": "nikah-ceremony",
+      "chapter": "together",
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Bride and groom arm in arm, smiling at each other",
+        "ar": "العروسان متشابكا الذراعين يتبادلان الابتسام"
+      }
+    },
+    "nikah-couple-portrait": {
+      "src": "/media/images/nikah-couple-portrait",
+      "width": 2000,
+      "height": 2919,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAABQBACdASoQABcAPu1iqU2ppaOiMAgBMB2JQBdgBCd7hWkDrQ0g6Ghed5YMAP6L14P77QVfRgpNYDIDXnM27aS96JoQdi4AGW1ZEGJlgSSqkdBC3UfRyAiSaDJdATNUUW0Ll6+Gkrcw/pyEGUToqm9GrESaJ8GfunNB25umgYj7qAAA",
+      "story": "nikah-ceremony",
+      "chapter": "together",
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Bride and groom side by side against white drapes",
+        "ar": "العروسان جنبًا إلى جنب أمام ستائر بيضاء"
+      }
+    },
+    "nikah-roses": {
+      "src": "/media/images/nikah-roses",
+      "width": 2000,
+      "height": 3000,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAAAQBACdASoQABgAPu1iqU2ppaQiMAgBMB2JYgCdAB3edw3Ee1IKOJJKgAD3JrSTfoPU0buJRRoRLvl91WmywZE94bZWvjwkJkvn6a4KpOwaAChO+639TdHO6F/Bp/I2Sp5s+i94K+duRB8332bSlSZ94NCt8j5YsZnN/eOJfRtfQAAA",
+      "story": "nikah-ceremony",
+      "chapter": "together",
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Bride holding red roses as she faces the groom",
+        "ar": "العروس تحمل ورودًا حمراء في مواجهة العريس"
+      }
+    },
+    "nikah-hands": {
+      "src": "/media/images/nikah-hands",
+      "width": 2000,
+      "height": 3000,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAAAQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JZgCdAB4dmdWyh9ccH27OAADiLET3WieDfIp/vxQ8OxKup4e2PZixQUdt3DEB07Rw80jpZN8d/FhIaAhglJ1bbfBg/saUKo4fFPXUaBB99rXMHXoWocLOpXL7Nwr66rAL7aPmV/plawkCAAA=",
+      "story": "nikah-ceremony",
+      "chapter": "together",
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Groom taking the bride's hands as they face each other",
+        "ar": "العريس يمسك يدي العروس وهما متقابلان"
+      }
+    },
+    "nikah-poolside-twirl": {
+      "src": "/media/images/nikah-poolside-twirl",
+      "width": 2000,
+      "height": 3000,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAACQAwCdASoQABgAPu1iqU2ppaOiMAgBMB2JaAAAJ3Utql8vd6vAAP5ypNDIacfNt1ytMx/veER0q0RiVDJiSxjbudWU6a4Z/8r5lAYl9nJDaUXuYwJw79ZwOlCkWvAf0Yl3dEoht/7Nu0SCD1iWgmUxu7cccKm7hukAAA==",
+      "story": "nikah-ceremony",
+      "chapter": "portraits",
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 60%",
+      "alt": {
+        "en": "Bride twirling her red lehenga beside a pool",
+        "ar": "العروس تُدير لهنغتها الحمراء بجانب المسبح"
+      }
+    },
+    "nikah-poolside-turn": {
+      "src": "/media/images/nikah-poolside-turn",
+      "width": 2000,
+      "height": 3000,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAACwAwCdASoQABgAPu1iqU2ppaOiMAgBMB2JZAAAPEw4vk9cX/FjgAD+otadAY3fFz/hsUq7oNXl2Uxjdz0RtRWtdKAOAIGsT6aCy7K+U5D2iisuBGAmdVjN7KNRT2YnVYHfqXFEKzWxPIbJKK6CznKpiX7yWTWOAAA=",
+      "story": "nikah-ceremony",
+      "chapter": "portraits",
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Bride turning away beside the pool, her lehenga spread across the deck",
+        "ar": "العروس تستدير بجانب المسبح وقد انبسطت لهنغتها على الأرضية"
+      }
+    },
+    "nikah-poolside-leaves": {
+      "src": "/media/images/nikah-poolside-leaves",
+      "width": 2000,
+      "height": 3000,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAADwAwCdASoQABgAPu1iqk2ppaQiMAgBMB2JagC7ACKT7wC8yPFPiG6YAP6+iKNoV0AgKv4Yz0LLS2RupzmHKX1fvrRQlL3snm4FfxuOKNGvorlDU3c7MEa8slxf4/mvLP4lO4fu+on87AY/UUAwsG4flE40+OTV0cn2uNoD7GlgChpPRnmt7il1oz9/vg7Pm0OtzeAA",
+      "story": "nikah-ceremony",
+      "chapter": "portraits",
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Bride standing poolside, framed by leaves",
+        "ar": "العروس واقفة بجانب المسبح تؤطّرها الأوراق"
+      }
+    },
+    "nikah-garden": {
+      "src": "/media/images/nikah-garden",
+      "width": 2000,
+      "height": 3000,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAQBACdASoQABgAPu1kqU2ppaQiMAgBMB2JQBOgA+wAF2Htl+1XjuBUMAD+ouqmQraQV3LItrdf1tlinCPSdgjrv/G0uEwN1vYKs+VcFEw3JybyiGqF40lX7cjgwurC+IXPz75gAAA=",
+      "story": "nikah-ceremony",
+      "chapter": "portraits",
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Bride standing on a garden lawn in front of a modern home",
+        "ar": "العروس واقفة على عشب الحديقة أمام منزل عصري"
+      }
+    },
+    "nikah-motion": {
+      "src": "/media/images/nikah-motion",
+      "width": 2000,
+      "height": 3000,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAAAQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JQAALVbTDa7gYdkCxaFKeAAD+zGoDgejR1WKXXFkJjhXDdiISqPhlyimix+lv31vy8TolWKLYkZmE/6McfWzqdA6/GD7f7v0lKSbBnoyEAAAA",
+      "story": "nikah-ceremony",
+      "chapter": "portraits",
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Bride standing still as guests blur past her",
+        "ar": "العروس ثابتة بينما يمرّ الضيوف من حولها في ضبابية الحركة"
+      }
+    },
+    "nikah-motion-swirl": {
+      "src": "/media/images/nikah-motion-swirl",
+      "width": 2000,
+      "height": 3000,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAAAQBACdASoQABgAPu1kqU2ppaOiMAgBMB2JYgC7ACIP8e9/svrFT+RYgAD+2r5h+kFH7sRbRzMAqRBYMPuH80Z23x9KiXNEC6aMUwK/RbWqHTHd3xoMVqTVoW+uVvL8hOjGq1EmPgOXWiLLPwRVrsESzv4H3uwM3vY18+3mztLGXo52MZVYAAAA",
+      "story": "nikah-ceremony",
+      "chapter": "portraits",
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "A swirl of blurred movement around the still bride",
+        "ar": "دوّامة من الحركة الضبابية حول العروس الساكنة"
+      }
+    },
+    "dubai-couple-shoulder": {
+      "src": "/media/images/dubai-couple-shoulder",
+      "width": 2000,
+      "height": 2667,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAwBACdASoQABUAPu1iqU2ppaOiMAgBMB2JZQAD5MovmzDFj+cPFPA7M8AA/tD5rqMwbJyFRPjKFFjfLUYvt3v79uKY61piVF7LwGvA6q4M2MkaZ93eAYNTZDFFEAiW07+2HOXpgd4Y1HT0qE+KRL5c8KeHjpQ2HkAAAA==",
+      "story": "dubai-couple-session",
+      "chapter": null,
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 30%",
+      "alt": {
+        "en": "Bride resting her head on the groom's shoulder, eyes closed",
+        "ar": "العروس تسند رأسها إلى كتف العريس مغمضة العينين"
+      }
+    },
+    "dubai-couple-twirl": {
+      "src": "/media/images/dubai-couple-twirl",
+      "width": 2000,
+      "height": 2667,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADwAwCdASoQABUAPu1iqU2ppaQiMAgBMB2JZwAAX9L4N5C7mc+oU8YAAP6vQAEnilPRyH3gZDZGpWi2zEpLAg8/g52uRVjb0I0RiMMt0qVcA7ASa5sJxZa8wpeh1aQ8bFO3/9ZQ8SGAAA==",
+      "story": "dubai-couple-session",
+      "chapter": null,
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Groom twirling the bride on a waterfront promenade with the marina behind them",
+        "ar": "العريس يُدير العروس على ممشى الواجهة المائية والمرسى خلفهما"
+      }
+    },
+    "dubai-couple-smile": {
+      "src": "/media/images/dubai-couple-smile",
+      "width": 2000,
+      "height": 2667,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAADwAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JZQCw7YuGxYgyyOSngKfAAPfUv97zYoJnFpEGTh+U6AR9x5THXAtLHKDtdMyS3aQu7QOaLaSJs5556rsCuUkQPb0mDuUNdVl8zBZ3TKM0zVWn5NNjBMmlWpZ/hIoz9MB5pVlyEwCGSXoI/JbMVFPhB84L0AAA",
+      "story": "dubai-couple-session",
+      "chapter": null,
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Bride and groom smiling at each other on the waterfront",
+        "ar": "العروسان يتبادلان الابتسام على الواجهة المائية"
+      }
+    },
+    "dubai-groom-portrait": {
+      "src": "/media/images/dubai-groom-portrait",
+      "width": 2000,
+      "height": 2667,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAABQBACdASoQABUAPu1iqU2ppaOiMAgBMB2JZwAD5IGAH4oFc0vGxxgOV5IAAP7Ti8zoINyqfA99KSaK0JeEREBxbLhKq1jJotliyb0xEtF/Ar0RTjyAgsVkOXnnT2GDh/zyZX/b9nlxA59ZX1jLy/Zc5RXOXy9KjUlhQAAA",
+      "story": "dubai-couple-session",
+      "chapter": null,
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Groom adjusting his bow tie beside the water",
+        "ar": "العريس يعدّل ربطة عنقه بجانب الماء"
+      }
+    },
+    "dubai-couple-palms": {
+      "src": "/media/images/dubai-couple-palms",
+      "width": 2000,
+      "height": 2667,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADwAgCdASoQABUAPu1iqU2ppaOiMAgBMB2JZwAAJOqP8AD+jY356ppv5PnhAdT8wpAQKLkbTiiAkQDmUMw5zeKrE2Lk0MnizAMvSR7QyTJfY5/YZX7rQyPMlkYlm9OOCh1oaQAA",
+      "story": "dubai-couple-session",
+      "chapter": null,
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Bride and groom walking arm in arm along a palm-lined promenade",
+        "ar": "العروسان يسيران متشابكي الذراعين على ممشى تصطفّ على جانبيه أشجار النخيل"
+      }
+    },
+    "dubai-groom-stride": {
+      "src": "/media/images/dubai-groom-stride",
+      "width": 2000,
+      "height": 2667,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAQBACdASoQABUAPu1kq04ppaQiMAgBMB2JaQAAW+vqniDQ8BTN3N6YAAD+0uFTYYM0rm0glvvAD2/f60sRzT6By1OCqB60RUTxZ55KpVNSAfRZwYpVhDl9aG0NpAzF/3Dxx6+hUnpVKFhD25VjgAAA",
+      "story": "dubai-couple-session",
+      "chapter": null,
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Groom in an embellished tuxedo striding along a railing on a hazy day",
+        "ar": "العريس ببدلة سهرة مطرّزة يمشي بمحاذاة الدرابزين في يوم ضبابي"
+      }
+    },
+    "dubai-couple-arch": {
+      "src": "/media/images/dubai-couple-arch",
+      "width": 2000,
+      "height": 2667,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAACwAwCdASoQABUAPu1iqU2ppaQiMAgBMB2JaQDH5CG8GemN2PEGcAD+roqJ6KhiXD97diXwBB5TuDkK0Jm8Vp/XNCdq87lTDLBjj5f/aVefuaCbsaaq44QAAAA=",
+      "story": "dubai-couple-session",
+      "chapter": null,
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "The bride's gown flaring as the couple dance beneath a white arch",
+        "ar": "فستان العروس يتطاير بينما يرقص العروسان تحت قوس أبيض"
+      }
+    },
+    "dubai-couple-ring": {
+      "src": "/media/images/dubai-couple-ring",
+      "width": 2000,
+      "height": 2667,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JZwAAW41HI4KUAS8MyxAAAP7yrehimPKPxufvdDhSFyhfYUUEgXjdkQUa7jJzVQRY5u6JMl740jFYfmWRLI61B0h5oAAA",
+      "story": "dubai-couple-session",
+      "chapter": null,
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Close detail of the bride's hennaed hand and ring against the groom's jacket",
+        "ar": "تفاصيل قريبة ليد العروس المزيّنة بالحناء وخاتمها على سترة العريس"
+      }
+    },
+    "dubai-couple-closeup": {
+      "src": "/media/images/dubai-couple-closeup",
+      "width": 2000,
+      "height": 2667,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAAAQBACdASoQABUAPu1iqU2ppaOiMAgBMB2JYwC/OCLUCt8RU9ijy2bC4AD+wDZxyJwfs7lN2OGWXFTvMbLXXRqRK9Sz6c8eTycH/ZILYEuiKUeNB+fwOk4vkM7+kKJFv/Ig+Ckt2H3Ny1hhU4sw/Ap2sJwRGECZpXAbRiV6bV42Goore7W2dizf4hB/GAAA",
+      "story": "dubai-couple-session",
+      "chapter": null,
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Close portrait of the bride smiling beside the groom",
+        "ar": "صورة قريبة للعروس مبتسمة بجانب العريس"
+      }
+    },
+    "bridal-blush-wall": {
+      "src": "/media/images/bridal-blush-wall",
+      "width": 2000,
+      "height": 2500,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAACwAwCdASoQABQAPu1iqU2ppaQiMAgBMB2JQBdgAa6E5/7Dd+taAAD3b4F2HVkr85vyQyhbYt778TjqPaA/7S9MtMX6GDIsFVde15Sm2dhwVd36VmpjcrJyYZsnQAAA",
+      "story": "bridal-sessions",
+      "chapter": null,
+      "categories": [
+        "weddings",
+        "portraits"
+      ],
+      "focal": "50% 30%",
+      "alt": {
+        "en": "Bride in a blush gown and hijab leaning against a pale wall, her hennaed hand raised",
+        "ar": "عروس بفستان وحجاب ورديّين تستند إلى جدار فاتح ويدها المزيّنة بالحناء مرفوعة"
+      }
+    },
+    "bridal-blush-leaves": {
+      "src": "/media/images/bridal-blush-leaves",
+      "width": 2000,
+      "height": 2500,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAwBACdASoQABQAPu1iqU2ppaOiMAgBMB2JbACdAB4dSFEzOW2+lGtDAgAA/u7efdTihDbGuSb0w+JJ2L3f5MkOny0qvFzRPmedW9l3qxP4y3jqxAeh/DjCYiX4ERXN9RgZ5r/Rzo5sbHTqf5N1sK4ciNFPH3k2yGZYAA==",
+      "story": "bridal-sessions",
+      "chapter": null,
+      "categories": [
+        "weddings",
+        "portraits"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Bride in blush, framed by soft out-of-focus leaves",
+        "ar": "عروس بالوردي تؤطّرها أوراق شجر ضبابية ناعمة"
+      }
+    },
+    "bridal-blush-bamboo": {
+      "src": "/media/images/bridal-blush-bamboo",
+      "width": 2000,
+      "height": 2500,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwBACdASoQABQAPu1iqU2ppaQiMAgBMB2JYwCw7CHngv6QwRi3ul+StxAA/vDFTTjxTstc3OxqVy6n3gvFTZ8wKZ7P1f/XYnRWtPCgKqmNG05/g5fGbpKal+M/mQAA",
+      "story": "bridal-sessions",
+      "chapter": null,
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Bride in a blush gown standing before a bamboo screen",
+        "ar": "عروس بفستان وردي تقف أمام ستارة من الخيزران"
+      }
+    },
+    "bridal-blush-twirl": {
+      "src": "/media/images/bridal-blush-twirl",
+      "width": 2000,
+      "height": 2500,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAAAwBACdASoQABQAPu1iqU2ppaOiMAgBMB2JYwCsACHiAgm3+8mn/Gy1+hAA/uzlNqz5KzAFGFqspI1c9YmWsa6+Uyu39QeHiiAC8BKWwgGdOLy1OsMehldkq48tSZ2cUtyqAWzXJmKH+hQA",
+      "story": "bridal-sessions",
+      "chapter": null,
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Bride twirling her blush gown on a garden path",
+        "ar": "عروس تُدير فستانها الوردي في ممر الحديقة"
+      }
+    },
+    "bridal-blush-veil": {
+      "src": "/media/images/bridal-blush-veil",
+      "width": 2000,
+      "height": 2500,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQBACdASoQABQAPu1iqU2ppaOiMAgBMB2JQBadBDw8Z8dPRtprDipgwAD+7EDObjrfiMeCZd+TZUb39VwLq9dSiJrwQ61Gg6l5KouUU0Orv1Z5971AvqZzAAA=",
+      "story": "bridal-sessions",
+      "chapter": null,
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Bride walking as two companions lift her long veil",
+        "ar": "عروس تمشي بينما ترفع رفيقتان طرحتها الطويلة"
+      }
+    },
+    "bridal-gold-glow": {
+      "src": "/media/images/bridal-gold-glow",
+      "width": 2000,
+      "height": 2498,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAQBACdASoQABQAPu1iqU2ppaOiMAgBMB2JZACdIExDArDkGmuSUe3zoAD+5yntTcIJX1LJTWE2Ou0pyFSwC18pA2G0zV3SMCbgqn+cfmTg3qi9/21DQ8zS4xAtJJSoDRZvw0PVroY0U7EsdwjtAAAA",
+      "story": "bridal-sessions",
+      "chapter": null,
+      "categories": [
+        "weddings",
+        "portraits"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Soft, glowing portrait of a bride in gold resting against white fabric",
+        "ar": "صورة ناعمة متوهّجة لعروس بالذهبي تستند إلى قماش أبيض"
+      }
+    },
+    "bridal-gold-haze": {
+      "src": "/media/images/bridal-gold-haze",
+      "width": 2000,
+      "height": 2498,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAABwBACdASoQABQAPu1iqU2ppaOiMAgBMB2JZACdL1G4AClAqzBw/EGPd36tAAD+7U42wPuPBNbnXEjVMYDwyK9sInLHhqS3s7KvFi3B3UPtoecO6FWXldCViTbsBLkRsL5Hnf8oxSHYyAAA",
+      "story": "bridal-sessions",
+      "chapter": null,
+      "categories": [
+        "weddings",
+        "portraits"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Dreamlike portrait of a bride in gold, softened by a hazy glow",
+        "ar": "صورة حالمة لعروس بالذهبي يلفّها توهّج ضبابي"
+      }
+    },
+    "bridal-gold-hands": {
+      "src": "/media/images/bridal-gold-hands",
+      "width": 2000,
+      "height": 2498,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAABwAwCdASoQABQAPu1iqU2ppaOiMAgBMB2JYwCdAAs6F11q1GAA/bAuZCxe0NWEjyrWAqaAOoAtXWYDM00s4DoneDuBGGjOyd/ZKOXoOodm82NaB3Q3eNVqAAA=",
+      "story": "bridal-sessions",
+      "chapter": null,
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Hennaed hands resting on an embellished gold bridal gown",
+        "ar": "يدان مزيّنتان بالحناء على فستان زفاف ذهبي مطرّز"
+      }
+    },
+    "bridal-gold-embrace": {
+      "src": "/media/images/bridal-gold-embrace",
+      "width": 2000,
+      "height": 2499,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAADwAwCdASoQABQAPu1iqU2ppaOiMAgBMB2JaACdABl+DXOhF1ryW+w8AP4ftRdx5RNvjeyJxIJR6D6wc4rJyM4W9TPgg7p2ty7SOJhMTdj6Y0t7H6YwHkQljFhNM1VvLFdyZvhF1ykRmsbm4Ojcue/RRSuAAA==",
+      "story": "bridal-sessions",
+      "chapter": null,
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Bride and groom embracing in a lush tropical garden",
+        "ar": "العروسان في عناق وسط حديقة استوائية وارفة"
+      }
+    },
+    "bridal-gold-twirl": {
+      "src": "/media/images/bridal-gold-twirl",
+      "width": 2000,
+      "height": 2499,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADQAwCdASoQABQAPu1iqU2ppaOiMAgBMB2JYgAAUBPQOdGoJGH0xMgA/szkqBxBDTagarKSM/x2JdYe+tbUixMl8wsYI6+m1MRcGjCp3LaefjnMIKH05/6DxFq1WFGjFuUtq/lDZ+NZQJCzYj8O4YAA",
+      "story": "bridal-sessions",
+      "chapter": null,
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Bride in gold twirling beside the groom on a stone terrace",
+        "ar": "العروس بالذهبي تدور بجانب العريس على شرفة حجرية"
+      }
+    },
+    "bridal-gold-dance": {
+      "src": "/media/images/bridal-gold-dance",
+      "width": 2000,
+      "height": 2499,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAwAwCdASoQABQAPu1iqU2ppaOiMAgBMB2JQBfnAr5p5xhgAP6g/DbDP/ycCmNjqrkRd1ZS4dGshpmgLM22somqe4w3X2LDul5HniztBASnG48ndeLN6MzJCYfNSvKila9gMuAA",
+      "story": "bridal-sessions",
+      "chapter": null,
+      "categories": [
+        "weddings"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Groom spinning the bride beneath his raised arm in a garden",
+        "ar": "العريس يُدير العروس تحت ذراعه المرفوعة في الحديقة"
+      }
+    },
+    "traditional-house": {
+      "src": "/media/images/traditional-house",
+      "width": 2000,
+      "height": 2667,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADwAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JZQAAW9Ody32AsYzL6ehYAP7J42+4OND0Zuo2JUadxYrB5IwRDNhLNTlZ+RMsQJPps/zcESdBXs26kTjx5Iz+FsfO3E/A4Mhxb4sl98ErSly74YAAAA==",
+      "story": "traditional-portrait-session",
+      "chapter": null,
+      "categories": [
+        "portraits"
+      ],
+      "focal": "50% 60%",
+      "alt": {
+        "en": "Woman in a red saree standing before a traditional tiled-roof house",
+        "ar": "امرأة بساري أحمر تقف أمام بيت تقليدي بسقف من القرميد"
+      }
+    },
+    "traditional-radio-steps": {
+      "src": "/media/images/traditional-radio-steps",
+      "width": 2000,
+      "height": 2667,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAwBACdASoQABUAPu1iqU2ppaQiMAgBMB2JYgC7MoADSuwlxe6h+E1g2gAA/qy5Mq9b+3NcghQDG43tf946My+SfRdn1dz77cFLdznF9Krtu3BUW3yR2X759AYjfLjV1WQ6pEBSJ27l+O3+UG2SJfSexTQAAA==",
+      "story": "traditional-portrait-session",
+      "chapter": null,
+      "categories": [
+        "portraits"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Woman in a red saree seated on veranda steps with a vintage radio",
+        "ar": "امرأة بساري أحمر تجلس على درجات الشرفة ومعها مذياع قديم"
+      }
+    },
+    "traditional-radio-laugh": {
+      "src": "/media/images/traditional-radio-laugh",
+      "width": 2000,
+      "height": 2667,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAACwAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JZgC7AB6JsXkWNU2MwAD+8Tq+dds/e2FbIGJzBNeVf2YVRa/G82rDH37fO11bUjW6wK27FFdnvkKjc5KvKs6HtvbediegEhMyAY9/KRW+ocXPahLbcS89XaCxrigc4WNTiJDU4+W9KZcxzB0vrkKkAAA=",
+      "story": "traditional-portrait-session",
+      "chapter": null,
+      "categories": [
+        "portraits"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Close portrait of a woman laughing as she holds a vintage radio",
+        "ar": "صورة قريبة لامرأة تضحك وهي تحمل مذياعًا قديمًا"
+      }
+    },
+    "traditional-newspaper": {
+      "src": "/media/images/traditional-newspaper",
+      "width": 2000,
+      "height": 2667,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAACwAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JZAAAUkV7lpff5YO9YAD+8rSuSjr6aMvt/GsfthZ8JSJTP4gTfjfYoLJYEgW5sYJtKQjtS6H1LfX3v32EvpRgzMUJ35pk0wiJj5RRl0P9ji6mpvQ9pvGIYq1SGWAA",
+      "story": "traditional-portrait-session",
+      "chapter": null,
+      "categories": [
+        "portraits"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Woman in a red saree reading a newspaper beside a vintage radio",
+        "ar": "امرأة بساري أحمر تقرأ صحيفة بجانب مذياع قديم"
+      }
+    },
+    "traditional-jasmine-tree": {
+      "src": "/media/images/traditional-jasmine-tree",
+      "width": 2000,
+      "height": 2667,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAwBACdASoQABUAPu1iqU2ppaOiMAgBMB2JZQC/OCHfcikjyE2Qu3ZgU8AA/uvyxPNzVNvYAj9TeldLg51TMPcJUActfcviTL70sB1Gyy0RMW+SEF2ifX7DSZWA1697gnSIAA==",
+      "story": "traditional-portrait-session",
+      "chapter": null,
+      "categories": [
+        "portraits"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Woman in a red saree beside a tree wound with jasmine garlands",
+        "ar": "امرأة بساري أحمر بجانب شجرة تلتفّ حولها أكاليل الياسمين"
+      }
+    },
+    "traditional-woven-fan": {
+      "src": "/media/images/traditional-woven-fan",
+      "width": 2000,
+      "height": 2667,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAADQAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JQBdmUABAOINjcI2twZAA/u8X6Be18wzz+H0a6DYuyceJcUE7XnOitntfBD6ALtEijEb/X76e5+aP2P9XFpl1YbWsfG7+SJnUC0dW2uNVbZE+TJLoh3cXDKv0wUTGnuhzQAAA",
+      "story": "traditional-portrait-session",
+      "chapter": null,
+      "categories": [
+        "portraits"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Woman seated by a whitewashed wall holding a woven fan, surrounded by plants",
+        "ar": "امرأة تجلس قرب جدار أبيض ممسكةً بمروحة منسوجة وسط النباتات"
+      }
+    },
+    "traditional-blossoms": {
+      "src": "/media/images/traditional-blossoms",
+      "width": 2000,
+      "height": 2667,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAADQAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JYgC7ACGTdzkdQX8J/oAA/u6aAI6MFiJQvDpf/9Jc3sU79vIY/u6uTuYfn+Um3s0pF+XsiSSz3yqUXFJRps0Fu3GRnk0AJzY+WzuRVp6SIeq4yknU+C6dnTXnEdx0IzxCRca9tULfsAAA",
+      "story": "traditional-portrait-session",
+      "chapter": null,
+      "categories": [
+        "portraits"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Woman resting on veranda steps behind a blur of white blossoms",
+        "ar": "امرأة تستريح على درجات الشرفة خلف أزهار بيضاء ضبابية"
+      }
+    },
+    "traditional-veranda": {
+      "src": "/media/images/traditional-veranda",
+      "width": 2000,
+      "height": 2667,
+      "widths": [
+        480,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAACwAwCdASoQABUAPu1iqU2ppaQiMAgBMB2JQAALfYRxb24bLD4nAAD+7OOaIQxQhs3VEFAmrpoPFWXzZ/1nMTlF/q97Y+GFvWduObUkWl1vUvhZeScl5LZ5cV5sc6yfncwsCCmizc24WfXAvuYXfrA+EWq71k4PljSUnhNwAAA=",
+      "story": "traditional-portrait-session",
+      "chapter": null,
+      "categories": [
+        "portraits"
+      ],
+      "focal": "50% 50%",
+      "alt": {
+        "en": "Woman reclining on veranda steps among potted plants",
+        "ar": "امرأة متّكئة على درجات الشرفة بين أصص النباتات"
+      }
+    }
+  },
+  "films": {
+    "film-corvette": {
+      "slug": "film-corvette",
+      "group": "automotive",
+      "src": "/media/films/film-corvette.mp4",
+      "width": 720,
+      "height": 1280,
+      "duration": 24,
+      "bytes": 4222750,
+      "orientation": "portrait",
+      "excerpt": false,
+      "flashing": false,
+      "title": {
+        "en": "Corvette C7",
+        "ar": "Corvette C7"
+      },
+      "poster": {
+        "src": "/media/images/film-corvette-poster",
+        "width": 720,
+        "height": 1280,
+        "widths": [
+          480,
+          720
+        ],
+        "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADwAwCdASoQABwAPu1krU2ppaSiMAgBMB2JYwC7AGlfZouzwc2swFAAAP79eifbqyZ61/twFAsdno9dGxDyL5jFkw+jzO+FgzKLpNfM0gk+Ww/mW5qEgDFqr24AMHncY/ijFMmiN0ixgZAAAAA="
+      }
+    },
+    "film-hellcat": {
+      "slug": "film-hellcat",
+      "group": "automotive",
+      "src": "/media/films/film-hellcat.mp4",
+      "width": 720,
+      "height": 1280,
+      "duration": 12.9,
+      "bytes": 2591488,
+      "orientation": "portrait",
+      "excerpt": false,
+      "flashing": true,
+      "title": {
+        "en": "Hellcat",
+        "ar": "Hellcat"
+      },
+      "poster": {
+        "src": "/media/images/film-hellcat-poster",
+        "width": 720,
+        "height": 1280,
+        "widths": [
+          480,
+          720
+        ],
+        "blurDataURL": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAADwAwCdASoQABwAPu1iqU2ppaOiMAgBMB2JbACsABBk9XqDh2ubF+vQAP5MLxDATjPVLjt9cU0wBNup3wJ7Zd4KX0FgJnRbMm+bPUZ5vpbwQWlyRhV+IYIclpYsAoXQgdIpB5fnG5Nk3TTa07HDUwCzuWwAAA=="
+      }
+    },
+    "film-ferrari": {
+      "slug": "film-ferrari",
+      "group": "automotive",
+      "src": "/media/films/film-ferrari.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 14.6,
+      "bytes": 1096377,
+      "orientation": "landscape",
+      "excerpt": false,
+      "flashing": false,
+      "title": {
+        "en": "Ferrari",
+        "ar": "Ferrari"
+      },
+      "poster": {
+        "src": "/media/images/film-ferrari-poster",
+        "width": 1280,
+        "height": 720,
+        "widths": [
+          480,
+          800,
+          1280
+        ],
+        "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoQAAkAA4BaJZwAD4hLD4LNkAAA/oekcjvFe71qw0/zoXFjYgSrbuYSqIv1MYNynHXh5J/S2e6sAAPkgAA="
+      }
+    },
+    "film-skyline-r34": {
+      "slug": "film-skyline-r34",
+      "group": "automotive",
+      "src": "/media/films/film-skyline-r34.mp4",
+      "width": 1274,
+      "height": 716,
+      "duration": 14,
+      "bytes": 2789285,
+      "orientation": "landscape",
+      "excerpt": false,
+      "flashing": false,
+      "title": {
+        "en": "Skyline R34",
+        "ar": "Skyline R34"
+      },
+      "poster": {
+        "src": "/media/images/film-skyline-r34-poster",
+        "width": 1274,
+        "height": 716,
+        "widths": [
+          480,
+          800,
+          1274
+        ],
+        "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQAAkAA4BaJbACdAEQz93uW0AA/jR5/rGtB/Lm9gaKgOmI5s2N1WYlhntCozLfZzE0doC5BU9y/4+EpeRAvV/WBsblIHYhg+SpJY/JAAA="
+      }
+    },
+    "film-revuelto": {
+      "slug": "film-revuelto",
+      "group": "automotive",
+      "src": "/media/films/film-revuelto.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 14.2,
+      "bytes": 1436206,
+      "orientation": "landscape",
+      "excerpt": false,
+      "flashing": false,
+      "title": {
+        "en": "Lamborghini Revuelto",
+        "ar": "Lamborghini Revuelto"
+      },
+      "poster": {
+        "src": "/media/images/film-revuelto-poster",
+        "width": 1280,
+        "height": 720,
+        "widths": [
+          480,
+          800,
+          1280
+        ],
+        "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAQCdASoQAAkAA4BaJagCdACvSlIAAP66gemRFMrTdzouTwk38YqHpbP4eyMpEspj5izKHZoCu83Vrsdb8qCYYZd+CJVaKHwIAA=="
+      }
+    },
+    "film-charger": {
+      "slug": "film-charger",
+      "group": "automotive",
+      "src": "/media/films/film-charger.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 28.7,
+      "bytes": 2421445,
+      "orientation": "landscape",
+      "excerpt": false,
+      "flashing": false,
+      "title": {
+        "en": "Charger",
+        "ar": "Charger"
+      },
+      "poster": {
+        "src": "/media/images/film-charger-poster",
+        "width": 1280,
+        "height": 720,
+        "widths": [
+          480,
+          800,
+          1280
+        ],
+        "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAQCdASoQAAkAA4BaJQBOgBtH570AAM45hFH5djvKp3T229p+0hbxMRWPiNJn8hU9M8/bPEhAqSgfryBmxzRg8XOACZgAAAA="
+      }
+    },
+    "film-swift": {
+      "slug": "film-swift",
+      "group": "automotive",
+      "src": "/media/films/film-swift.mp4",
+      "width": 716,
+      "height": 1280,
+      "duration": 26.4,
+      "bytes": 2357361,
+      "orientation": "portrait",
+      "excerpt": false,
+      "flashing": false,
+      "title": {
+        "en": "Swift, modified",
+        "ar": "Swift معدّلة"
+      },
+      "poster": {
+        "src": "/media/images/film-swift-poster",
+        "width": 716,
+        "height": 1280,
+        "widths": [
+          480,
+          716
+        ],
+        "blurDataURL": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAAAwBACdASoQAB0APu1kqk4ppaQiMAgBMB2JYwC/OGlfhqIGF5+S0jFqqgAA/v0sbsIPFJ6q9iI/MsHy55PXTmsHw+0T1iiqZDYTQJVopQ/gz3W11ksWQtXs2600N4fSa0NynoxdPQW4+3rO27Kb+ugTWrPLap4Kodscc8XldQNvgUeMAAA="
+      }
+    },
+    "film-bridal-gold": {
+      "slug": "film-bridal-gold",
+      "group": "wedding",
+      "src": "/media/films/film-bridal-gold.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 14.5,
+      "bytes": 1801779,
+      "orientation": "landscape",
+      "excerpt": true,
+      "flashing": false,
+      "title": {
+        "en": "Bridal film — gold",
+        "ar": "فيلم العروس — الذهبي"
+      },
+      "poster": {
+        "src": "/media/images/film-bridal-gold-poster",
+        "width": 1280,
+        "height": 720,
+        "widths": [
+          480,
+          800,
+          1280
+        ],
+        "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAQCdASoQAAkAA4BaJYgCdADHjzNe4ADLIITM/uzAbD0kokeZog7n+Krd/Ywwabs1IsoD8FWstdncnDllQKVOIzrhbtWEVmIxM0fxRIR45EKpvNIks/kAAAA="
+      }
+    },
+    "film-red-saree": {
+      "slug": "film-red-saree",
+      "group": "wedding",
+      "src": "/media/films/film-red-saree.mp4",
+      "width": 1274,
+      "height": 716,
+      "duration": 11.5,
+      "bytes": 2444661,
+      "orientation": "landscape",
+      "excerpt": true,
+      "flashing": false,
+      "title": {
+        "en": "Portrait film — red saree",
+        "ar": "فيلم بورتريه — الساري الأحمر"
+      },
+      "poster": {
+        "src": "/media/images/film-red-saree-poster",
+        "width": 1274,
+        "height": 716,
+        "widths": [
+          480,
+          800,
+          1274
+        ],
+        "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAwAgCdASoQAAkAA4BaJbACdAEWy2WF1p/WAAD+8rsRpcxSMRJQJFl6AhzaDOjcIv8WICk1ZQo0dS6zatkj1/IuFbVMq9aWqIZkAAAA"
+      }
+    },
+    "film-bridal-blush": {
+      "slug": "film-bridal-blush",
+      "group": "wedding",
+      "src": "/media/films/film-bridal-blush.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 41.5,
+      "bytes": 7654898,
+      "orientation": "landscape",
+      "excerpt": false,
+      "flashing": false,
+      "title": {
+        "en": "Bridal film — blush",
+        "ar": "فيلم العروس — الوردي"
+      },
+      "poster": {
+        "src": "/media/images/film-bridal-blush-poster",
+        "width": 1280,
+        "height": 720,
+        "widths": [
+          480,
+          800,
+          1280
+        ],
+        "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAkAA4BaJZQC7AD71RwI+AAA/vGE6PydLVHdZghv0uTbWfQuYYzOOBmTLkfKRo8CPxZmUSp0MvwmfOnGwEAA"
+      }
+    }
+  }
+}
