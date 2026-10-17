@@ -7,9 +7,9 @@ export type CategoryKey = Category | 'films'
 
 export const categories: { key: CategoryKey; href: string; cover: string }[] = [
   { key: 'automotive', href: '/work/automotive', cover: 'automotive-underpass-trio' },
+  { key: 'films', href: '/work/films', cover: 'film-swift' },
   { key: 'weddings', href: '/work/weddings', cover: 'dubai-couple-shoulder' },
   { key: 'portraits', href: '/work/portraits', cover: 'traditional-house' },
-  { key: 'films', href: '/work/films', cover: 'film-swift' },
 ]
 
 export type StoryKey =
@@ -29,8 +29,8 @@ export type Story = {
 }
 
 export const stories: Story[] = [
-  { key: 'nikah-ceremony', category: 'weddings', href: '/stories/nikah-ceremony', cover: 'nikah-poolside-twirl', hasPage: true },
   { key: 'automotive', category: 'automotive', href: '/work/automotive', cover: 'automotive-mustang-scissor-doors', hasPage: false },
+  { key: 'nikah-ceremony', category: 'weddings', href: '/stories/nikah-ceremony', cover: 'nikah-poolside-twirl', hasPage: true },
   { key: 'bridal-sessions', category: 'weddings', href: '/stories/bridal-sessions', cover: 'bridal-blush-wall', hasPage: true },
   { key: 'dubai-couple-session', category: 'weddings', href: '/stories/dubai-couple-session', cover: 'dubai-couple-twirl', hasPage: true },
   { key: 'traditional-portrait-session', category: 'portraits', href: '/stories/traditional-portrait-session', cover: 'traditional-radio-steps', hasPage: true },
@@ -45,5 +45,9 @@ export function getStory(key: string): Story | undefined {
 /** Static routes, used by the sitemap. */
 export const staticRoutes = ['/', '/work', '/work/automotive', '/work/weddings', '/work/portraits', '/work/films', '/about', '/contact']
 
-export const heroImages = { main: 'nikah-bride-pavilion', inset: 'automotive-camaro-desert-sunset' }
+// Automotive leads the site: the hero pairs the sunset Camaro with a motion-pan frame.
+export const heroImages = { main: 'automotive-camaro-desert-sunset', inset: 'automotive-panning-curve' }
+
+/** Automotive films featured on the home page (landscape first, then vertical). */
+export const homeFilms = ['film-ferrari', 'film-revuelto', 'film-corvette', 'film-hellcat', 'film-swift']
 export const aboutPortrait = 'portrait-muhammed-rifad'

@@ -1,8 +1,9 @@
 # R7 — Photography & Film
 
-Portfolio website for **R7**, the photography and film practice of Muhammed Rifad TV (Dubai).
-English and Arabic (right-to-left), built as a fast, mostly static Next.js site from the
-supplied work in the folder above this one. The original media is never modified.
+Portfolio website for **R7**, the automotive photography and film practice of Muhammed Rifad TV
+(Dubai), with weddings, Nikah and portraits alongside. English at the site root, Arabic under `/ar`
+(right-to-left). A fully static Next.js site built from the supplied work in the folder above this
+one; the original media is never modified.
 
 Open items that need the owner's confirmation before launch are listed in [APPROVALS.md](APPROVALS.md).
 
@@ -37,7 +38,7 @@ app/
   [locale]/                 en + ar routes (root layout sets lang/dir, fonts, header, footer)
     page.tsx                home
     work/                   selected work + automotive, weddings, portraits, films
-    stories/[slug]/         Nikah, bridal, Dubai couple, traditional portrait stories
+    stories/*/              Nikah, bridal, Dubai couple, traditional portrait (one fixed route each)
     about/  contact/  not-found.tsx
   global-not-found.tsx      bilingual 404 for URLs that match no route
   sitemap.ts  robots.ts  icon.png  apple-icon.png  favicon.ico
@@ -56,16 +57,18 @@ lib/
 messages/en.ts, ar.ts       all copy, both languages
 media/sources.json          curated list of originals → web names, alt text, publish flags
 scripts/prepare-media.mjs   media pipeline
-proxy.ts                    language redirect for "/" and locale-less URLs; real 404 for unknown stories
 ```
 
 ## Routes
 
-`/` redirects to `/en` or `/ar` from the browser's `Accept-Language`. Every page exists in both languages:
+English is served at the root (`/`, `/work`, `/about`…) and Arabic under `/ar` (`/ar/work`…).
+`next.config.ts` rewrites root URLs to `app/[locale]` and permanently redirects old `/en/...` links.
+This happens in Vercel's routing layer, so there is no middleware/proxy and every page is served
+straight from the CDN cache.
 
-| Path (after `/en` or `/ar`) | Content |
+| Path (root, or after `/ar`) | Content |
 |---|---|
-| `/` | Hero, collections, featured stories, about, services, contact |
+| `/` | Automotive hero, automotive films, collections, featured stories, about, services, contact |
 | `/work` | All collections and stories |
 | `/work/automotive` | 14 photographs + 7 automotive films |
 | `/work/weddings` | Nikah, bridal and couple stories + 2 wedding films |
@@ -83,7 +86,8 @@ The language switch keeps you on the same page in the other language.
 - **Photos** → `public/media/images/<slug>-<width>.webp` at 480/800/1200/1600/2000 px (never upscaled),
   sRGB, metadata stripped, plus a blur placeholder. The `next/image` loader (`lib/media/image-loader.ts`)
   serves the nearest generated width, so no runtime image optimisation is needed.
-- **Films** → `public/media/films/<slug>.mp4`: H.264, no audio track, fast-start, bitrate capped at 1.6 Mbps.
+- **Films** → `public/media/films/<slug>.mp4`: H.264 + AAC 128 kbps stereo (original soundtrack), fast-start,
+  video bitrate capped at 1.6 Mbps. Excerpts get a one-second audio fade-out.
   Reels that were stored sideways ("turn your phone" format) are rotated to landscape; two wedding films
   are trimmed to bride-only excerpts. Each film gets WebP poster frames.
 - **Brand** → `public/brand/r7-mark.webp` (ink R for the light site), `r7-mark-light.webp` (original white R),
@@ -98,13 +102,16 @@ rebuilds everything (about 5 minutes). Requires `ffmpeg`/`ffprobe` on `PATH` for
 To add or change a photo: edit `media/sources.json` (source path, slug, `en`/`ar` alt text, story, categories),
 run `npm run media`, then rebuild.
 
-Output: 59 photos (≈ 40 MB across all sizes; a typical grid image is 60–125 KB) and 10 films (≈ 28 MB).
+Output: 59 photos (≈ 40 MB across all sizes; a typical grid image is 60–125 KB) and 10 films (≈ 31 MB).
 
 ## Contact details and switches
 
 `lib/site.ts` holds every contact value with its source and a `publish` flag. Only published values reach
 the HTML. Currently published: email (from the CV) and Instagram `@r7.visuals_` (from `details`).
-Phone numbers, WhatsApp and the second Instagram handle are present but **hidden** until confirmed.
+WhatsApp `+91 98468 23079` is published too and powers the contact form
+(`components/contact/WhatsAppForm.tsx`): there is no backend — submitting opens `wa.me` with the
+visitor's details written into the message, in the page's language. The UAE number and the second
+Instagram handle stay **hidden** until confirmed.
 Services are listed there too; "Album & Editorial Layout Design" is hidden until authorship is confirmed.
 
 ## Deploying to Vercel

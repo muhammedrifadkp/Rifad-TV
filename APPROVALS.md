@@ -7,7 +7,8 @@ Everything below is either hidden on the site or published provisionally. Each i
 - [ ] **Email** `muhammedrifad127@gmail.com` (from the CV) is published. Confirm it is the current business address. → `lib/site.ts`
 - [ ] **Instagram** `@r7.visuals_` (from `details`) is published. Confirm it is the brand account. → `lib/site.ts`
 - [ ] **Second Instagram** — `details` lists `_ri_fayyee._`, the CV says `ri_fayyee`. Hidden until the correct handle is confirmed. → `lib/site.ts`
-- [ ] **Phones** — hidden. The CV writes `+971 0566302072` (likely `+971 56 630 2072`); `details` lists an Indian number without a country code. Confirm which to show and which uses WhatsApp, then set `publish`/`whatsapp`. → `lib/site.ts`
+- [x] **WhatsApp** — the owner chose `+91 98468 23079` (2026-10-17). It is shown on the contact page and receives contact-form enquiries. → `lib/site.ts`
+- [ ] **UAE phone** — still hidden. The CV writes `+971 0566302072` (likely `+971 56 630 2072`). Set `publish: true` once confirmed. → `lib/site.ts`
 - [ ] **Logo** — `logo.PNG` (added 2026-10-16) is used as the brand mark, with the white R recoloured to ink for the light site. Confirm this is the official mark and that recolouring is acceptable.
 - [ ] **Brand name** — the site uses "R7". Confirm, along with the domain for `NEXT_PUBLIC_SITE_URL`.
 - [ ] **"wanderlens"** (CV "Creative Gallery") — not linked; no URL was supplied.
@@ -18,7 +19,7 @@ Everything below is either hidden on the site or published provisionally. Each i
 - [ ] **Client consent** for every wedding, couple and portrait image and film on the site (stories: Nikah Ceremony, Bridal Sessions, Dubai Couple Session, Traditional Portrait Session).
 - [ ] **Employer work** — confirm whether any automotive images or films were made for Dresden Motors or Germantech Motor Dubai, and that they may be shown.
 - [ ] **Number plates** are readable in several automotive photos. Confirm they are fine to show, or supply blurred versions.
-- [ ] **Music** — every film is published without its audio track. Sound can be restored once licences are confirmed (remove `-an` for that film in `scripts/prepare-media.mjs`).
+- [ ] **Music** — at the owner's request (2026-10-17) the films now play with their original soundtracks. Confirm the music in each reel may be used on a public website; if not, re-encode that film without audio (add `-an` in `scripts/prepare-media.mjs`).
 - [ ] **Profile photo** `profil-1.jpeg` is withheld: its EXIF credits "SAVAD EKS". `profil-2.jpeg` is used; confirm its photographer and permission too.
 - [ ] **Location in a title** — "Dubai Couple Session" is inferred from the skyline. Confirm, or rename in `messages/en.ts` and `messages/ar.ts`.
 

@@ -3,10 +3,10 @@
 export const en = {
   meta: {
     siteName: 'R7',
-    defaultTitle: 'R7 — Photography & Film by Muhammed Rifad TV',
+    defaultTitle: 'R7 — Automotive Photography & Film by Muhammed Rifad TV',
     titleTemplate: '%s — R7',
     description:
-      'R7 is the photography and film practice of Muhammed Rifad TV in Dubai: automotive, weddings and Nikah, portraits and short films.',
+      'R7 is the automotive photography and film practice of Muhammed Rifad TV in Dubai, with weddings, Nikah and portrait work alongside.',
     pages: {
       work: { title: 'Selected Work', description: 'A curated edit of automotive, wedding, portrait and film work by R7.' },
       automotive: { title: 'Automotive', description: 'Automotive photography by R7 — desert roads, golden hour and motion.' },
@@ -38,14 +38,14 @@ export const en = {
   },
 
   hero: {
-    eyebrow: 'Photography & Film · Dubai',
+    eyebrow: 'Automotive Photography & Film · Dubai',
     // Brand line (proposed copy, not a quotation).
-    title: 'Stories, framed with <em>intention.</em>',
-    lead: 'Photography and films shaped by light, emotion, and detail.',
+    title: 'Cars, framed with <em>intention.</em>',
+    lead: 'Automotive photography and films shaped by light, motion and detail — with weddings, Nikah and portraits alongside.',
     primary: 'View selected work',
     secondary: 'Get in touch',
-    captionMain: 'Nikah story',
-    captionInset: 'Automotive',
+    captionMain: 'Automotive',
+    captionInset: 'In motion',
     scroll: 'Scroll',
   },
 
@@ -64,7 +64,7 @@ export const en = {
     },
     films: {
       title: 'Films',
-      description: 'Short films made for social media — automotive pieces and bridal stories, presented without sound.',
+      description: 'Short films made for social media — automotive pieces first, with bridal stories alongside.',
     },
   },
 
@@ -106,7 +106,7 @@ export const en = {
     selected: {
       eyebrow: 'Selected work',
       title: 'Four ways of <em>seeing.</em>',
-      intro: 'A curated edit across automotive, weddings and Nikah, portraiture and short films.',
+      intro: 'Automotive first — stills and films — with weddings and Nikah, and portraiture alongside.',
       view: 'View',
     },
     featured: {
@@ -118,7 +118,7 @@ export const en = {
     about: {
       eyebrow: 'About',
       title: 'Behind <em>R7</em>',
-      body: 'R7 is the creative practice of Muhammed Rifad TV, a photographer and videographer based in Dubai, working across portrait, fashion, lifestyle and automotive projects.',
+      body: 'R7 is the creative practice of Muhammed Rifad TV, a photographer and videographer based in Dubai, working across automotive, portrait, fashion and lifestyle projects.',
       link: 'More about R7',
     },
     services: {
@@ -129,9 +129,15 @@ export const en = {
     contact: {
       eyebrow: 'Contact',
       title: 'Let’s create something <em>considered.</em>',
-      body: 'For bookings and enquiries, get in touch by email or Instagram.',
+      body: 'For bookings and enquiries, send a message on WhatsApp, email or Instagram.',
       cta: 'Contact R7',
     },
+  },
+
+  homeFilms: {
+    eyebrow: 'Automotive films',
+    title: 'Built to <em>move.</em>',
+    intro: 'Short automotive films made for social media. Tap any film to play it with sound.',
   },
 
   work: {
@@ -155,12 +161,11 @@ export const en = {
   films: {
     eyebrow: 'Films',
     title: 'Moving <em>pictures.</em>',
-    intro: 'Short films originally made for social media. Every film here plays without sound; two wedding films are shown as short excerpts.',
+    intro: 'Short films originally made for social media, led by automotive work. Tap a film to play it with sound; two wedding films are shown as short excerpts.',
     automotive: 'Automotive films',
     wedding: 'Wedding & portrait films',
     play: 'Play film: {title}',
     close: 'Close film',
-    silent: 'Silent',
     excerpt: 'Excerpt',
     flashing: 'Contains flashing light',
     seconds: '{s} s',
@@ -227,6 +232,23 @@ export const en = {
     location: 'Based in',
     locationValue: 'Dubai, United Arab Emirates',
     responseNote: 'Please include the date, location and type of shoot in your message.',
+    form: {
+      title: 'Enquire on <em>WhatsApp</em>',
+      intro: 'Fill in a few details and WhatsApp opens with your message ready to send.',
+      name: 'Name',
+      type: 'Type of shoot',
+      typePlaceholder: 'Choose one',
+      types: ['Automotive photography', 'Automotive film', 'Wedding / Nikah', 'Portrait / fashion', 'Short-form video', 'Other'],
+      date: 'Preferred date',
+      location: 'Location',
+      locationPlaceholder: 'City or venue',
+      message: 'Message',
+      messagePlaceholder: 'The car, the occasion, what you have in mind…',
+      optional: 'optional',
+      submit: 'Send on WhatsApp',
+      note: 'Opens WhatsApp in a new tab or the app. Nothing is sent until you press send there.',
+      greeting: 'Hello R7, I would like to enquire about a shoot.',
+    },
   },
 
   footer: {

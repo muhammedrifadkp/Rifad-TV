@@ -31,7 +31,7 @@ function cell(i: number, count: number) {
   const fullOnMobile = i % 3 === 0 || (i % 3 === 1 && i === count - 1)
   return {
     className: `${fullOnMobile ? 'col-span-6' : 'col-span-3'} ${desktop.span}`,
-    sizes: `${desktop.sizes}, ${fullOnMobile ? '100vw' : '50vw'}`,
+    sizes: `${desktop.sizes}, ${fullOnMobile ? '67vw' : '34vw'}`,
   }
 }
 

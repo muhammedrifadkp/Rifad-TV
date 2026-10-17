@@ -64,9 +64,10 @@ export const contact = {
       label: 'India',
       e164: '+919846823079',
       display: '+91 98468 23079',
-      source: 'details (no country code given)',
-      whatsapp: false,
-      publish: false,
+      source: 'details (no country code given); confirmed by the owner for WhatsApp on 2026-10-17',
+      // Receives contact-form enquiries on WhatsApp.
+      whatsapp: true,
+      publish: true,
     },
   ],
 } satisfies {

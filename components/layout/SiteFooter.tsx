@@ -6,11 +6,11 @@ import { contact, publishedInstagram } from '@/lib/site'
 
 export function SiteFooter({ locale, t }: { locale: Locale; t: Messages }) {
   const explore = [
-    { href: '/work', label: t.nav.work },
     { href: '/work/automotive', label: t.nav.automotive },
+    { href: '/work/films', label: t.nav.films },
     { href: '/work/weddings', label: t.nav.weddings },
     { href: '/work/portraits', label: t.nav.portraits },
-    { href: '/work/films', label: t.nav.films },
+    { href: '/work', label: t.nav.work },
     { href: '/about', label: t.nav.about },
   ]
 

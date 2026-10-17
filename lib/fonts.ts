@@ -1,6 +1,6 @@
 import { Amiri, Bodoni_Moda, Jost, Noto_Sans_Arabic } from 'next/font/google'
 
-export const bodoni = Bodoni_Moda({ subsets: ['latin'], style: ['normal', 'italic'], axes: ['opsz'], variable: '--font-bodoni' })
+export const bodoni = Bodoni_Moda({ subsets: ['latin'], style: ['normal', 'italic'], variable: '--font-bodoni' })
 export const jost = Jost({ subsets: ['latin'], variable: '--font-jost' })
 // Arabic faces are not preloaded so English pages never download them.
 export const amiri = Amiri({ subsets: ['arabic'], weight: ['400', '700'], variable: '--font-amiri', preload: false })

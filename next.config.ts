@@ -24,6 +24,24 @@ const nextConfig: NextConfig = {
     imageSizes: [240, 360],
     qualities: [78],
   },
+  // English is served at the site root and Arabic under /ar. These run in Vercel's
+  // routing layer (no server function), so pages stay fully static and fast.
+  async redirects() {
+    return [
+      { source: "/en", destination: "/", permanent: true },
+      { source: "/en/:path*", destination: "/:path*", permanent: true },
+    ];
+  },
+  async rewrites() {
+    return {
+      beforeFiles: [],
+      afterFiles: [
+        { source: "/", destination: "/en" },
+        { source: "/:path((?!ar$|ar/|_next/|media/|brand/|og/).*)", destination: "/en/:path" },
+      ],
+      fallback: [],
+    };
+  },
   async headers() {
     return [
       {

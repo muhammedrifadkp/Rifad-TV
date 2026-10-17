@@ -17,7 +17,7 @@ export function AboutPreview({ locale, t }: SectionProps) {
   return (
     <section className="page-gutter mx-auto grid max-w-page items-center gap-12 pt-12 pb-24 md:grid-cols-12 md:gap-10 md:pt-16 md:pb-36">
       <Reveal className="relative aspect-[4/5] overflow-hidden bg-bone md:col-span-5">
-        <PhotoImage photo={portrait} cover sizes="(min-width: 768px) 38vw, 100vw" />
+        <PhotoImage photo={portrait} cover sizes="(min-width: 768px) 38vw, 67vw" />
       </Reveal>
       <Reveal className="md:col-span-6 md:col-start-7" delay={120}>
         <SectionHeading index="03" eyebrow={t.home.about.eyebrow} title={t.home.about.title} />
@@ -63,11 +63,11 @@ export function ServicesList({ locale, t, index = '04' }: SectionProps & { index
 }
 
 /** Email and Instagram links, rendered only when switched on in lib/site.ts. */
-export function ContactLinks({ t, large = false }: { t: Messages; large?: boolean }) {
+export function ContactLinks({ t, large = false, stacked = large }: { t: Messages; large?: boolean; stacked?: boolean }) {
   const linkClass = `link-underline ${large ? 'display text-3xl sm:text-4xl lg:text-5xl' : 'text-xl'} text-ink hover:text-burgundy`
   // Large links stack so a long email address never breaks mid-word.
   return (
-    <dl className={`grid gap-8 ${large ? '' : 'sm:grid-cols-2'}`}>
+    <dl className={`grid gap-8 ${stacked ? '' : 'sm:grid-cols-2'}`}>
       {contact.email.publish && (
         <div>
           <dt className="label text-stone">{t.contact.email}</dt>

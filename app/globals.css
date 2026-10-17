@@ -125,10 +125,10 @@ em:lang(ar),
 @media (prefers-reduced-motion: no-preference) {
   html.js [data-reveal] {
     opacity: 0;
-    transform: translateY(1.25rem);
+    transform: translateY(0.75rem);
     transition:
-      opacity 900ms var(--ease-editorial),
-      transform 900ms var(--ease-editorial);
+      opacity 600ms var(--ease-editorial),
+      transform 600ms var(--ease-editorial);
     transition-delay: var(--reveal-delay, 0ms);
   }
   html.js [data-reveal][data-revealed] {
@@ -137,7 +137,7 @@ em:lang(ar),
   }
 
   .hero-rise {
-    animation: hero-rise 1100ms var(--ease-editorial) both;
+    animation: hero-rise 650ms var(--ease-editorial) both;
     animation-delay: var(--rise-delay, 0ms);
   }
 }
@@ -145,7 +145,7 @@ em:lang(ar),
 @keyframes hero-rise {
   from {
     opacity: 0;
-    transform: translateY(1.5rem);
+    transform: translateY(0.75rem);
   }
   to {
     opacity: 1;

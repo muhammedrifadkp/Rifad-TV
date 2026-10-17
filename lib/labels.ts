@@ -18,7 +18,6 @@ export function filmLabels(t: Messages): FilmLabels {
   return {
     play: t.films.play,
     close: t.films.close,
-    silent: t.films.silent,
     excerpt: t.films.excerpt,
     flashing: t.films.flashing,
     seconds: t.films.seconds,

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 
 export default function GlobalNotFound() {
   const blocks = [
-    { lang: 'en', dir: 'ltr', t: en.notFound, href: '/en' },
+    { lang: 'en', dir: 'ltr', t: en.notFound, href: '/' },
     { lang: 'ar', dir: 'rtl', t: ar.notFound, href: '/ar' },
   ] as const
 
@@ -23,7 +23,7 @@ export default function GlobalNotFound() {
     <html lang="en" className={fontVariables}>
       <body className="min-h-dvh antialiased">
         <main className="page-gutter mx-auto flex min-h-dvh max-w-page flex-col justify-center gap-16 py-16">
-          <Link href="/en" aria-label={en.nav.home} className="self-start">
+          <Link href="/" aria-label={en.nav.home} className="self-start">
             <BrandMark className="h-12" />
           </Link>
           <div className="grid gap-16 md:grid-cols-2">

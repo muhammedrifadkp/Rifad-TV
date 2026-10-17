@@ -38,11 +38,11 @@ export default async function LocaleLayout({ children, params }: LayoutProps<'/[
   const t = getMessages(locale)
 
   const nav = [
-    { href: '/work', label: t.nav.work },
     { href: '/work/automotive', label: t.nav.automotive },
+    { href: '/work/films', label: t.nav.films },
     { href: '/work/weddings', label: t.nav.weddings },
     { href: '/work/portraits', label: t.nav.portraits },
-    { href: '/work/films', label: t.nav.films },
+    { href: '/work', label: t.nav.work },
     { href: '/about', label: t.nav.about },
     { href: '/contact', label: t.nav.contact },
   ].map((item) => ({ ...item, href: localePath(locale, item.href) }))

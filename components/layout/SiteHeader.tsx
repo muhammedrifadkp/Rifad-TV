@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation'
 import { useEffect, useRef, useState } from 'react'
 import { BrandMark } from '@/components/brand/BrandMark'
 import { LanguageSwitch } from './LanguageSwitch'
-import type { Locale } from '@/lib/i18n'
+import { localePath, type Locale } from '@/lib/i18n'
 
 export type NavItem = { href: string; label: string }
 
@@ -51,7 +51,7 @@ export function SiteHeader({ locale, items, labels }: Props) {
     return () => menu?.close()
   }, [pathname])
 
-  const home = `/${locale}`
+  const home = localePath(locale)
   const linkClass = (href: string) =>
     `label link-underline pb-1 transition-colors ${isActive(pathname, href) ? 'text-burgundy' : 'text-charcoal hover:text-ink'}`
 

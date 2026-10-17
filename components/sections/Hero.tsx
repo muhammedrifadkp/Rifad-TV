@@ -19,13 +19,13 @@ export function Hero({ locale, t }: { locale: Locale; t: Messages }) {
       <div className="grid gap-14 lg:grid-cols-12 lg:items-end lg:gap-8">
         <div className="lg:col-span-5 lg:pb-20">
           <p className="label hero-rise text-stone">{t.hero.eyebrow}</p>
-          <h1 className="display hero-rise mt-6 text-[clamp(3.25rem,7.4vw,7rem)] text-ink" style={rise(120)}>
+          <h1 className="display hero-rise mt-6 text-[clamp(3.25rem,7.4vw,7rem)] text-ink" style={rise(60)}>
             <Rich text={t.hero.title} />
           </h1>
-          <p className="hero-rise mt-8 max-w-md text-lg text-charcoal" style={rise(240)}>
+          <p className="hero-rise mt-8 max-w-md text-lg text-charcoal" style={rise(120)}>
             {t.hero.lead}
           </p>
-          <div className="hero-rise mt-10 flex flex-wrap items-center gap-x-8 gap-y-5" style={rise(360)}>
+          <div className="hero-rise mt-10 flex flex-wrap items-center gap-x-8 gap-y-5" style={rise(180)}>
             <Link
               href={localePath(locale, '/work')}
               className="label inline-flex min-h-12 items-center gap-4 bg-ink px-7 text-paper transition-colors duration-300 hover:bg-burgundy"
@@ -40,15 +40,15 @@ export function Hero({ locale, t }: { locale: Locale; t: Messages }) {
         </div>
 
         <div className="relative pb-16 lg:col-span-7 lg:pb-0">
-          <figure className="hero-rise relative ms-auto aspect-[4/5] w-full sm:w-[88%] lg:aspect-auto lg:h-[min(calc(100svh-8rem),56rem)] lg:min-h-[36rem]" style={rise(80)}>
-            <PhotoImage photo={main} cover preload sizes="(min-width: 1024px) 52vw, (min-width: 640px) 88vw, 100vw" />
+          <figure className="relative ms-auto aspect-[4/5] w-full sm:w-[88%] lg:aspect-auto lg:h-[min(calc(100svh-8rem),56rem)] lg:min-h-[36rem]">
+            <PhotoImage photo={main} cover preload sizes="(min-width: 1024px) 52vw, (min-width: 640px) 88vw, 67vw" />
             <figcaption className="label absolute -bottom-7 end-0 text-stone">{t.hero.captionMain}</figcaption>
           </figure>
           <figure
             className="hero-rise absolute bottom-0 start-0 aspect-[3/4] w-[42%] border-[6px] border-ivory sm:w-[34%] lg:-bottom-14 lg:w-[30%] lg:border-[10px]"
-            style={rise(420)}
+            style={rise(200)}
           >
-            <PhotoImage photo={inset} cover sizes="(min-width: 1024px) 18vw, 40vw" />
+            <PhotoImage photo={inset} cover sizes="(min-width: 1024px) 18vw, 28vw" />
             <figcaption className="label absolute -bottom-7 start-0 text-stone">{t.hero.captionInset}</figcaption>
           </figure>
         </div>

@@ -2,7 +2,7 @@
 // Builds web-ready derivatives from the original media described in media/sources.json.
 // Originals are only read, never modified. Outputs:
 //   public/media/images/<slug>-<width>.webp   responsive stills and film posters (metadata stripped, sRGB)
-//   public/media/films/<slug>.mp4             upright, silent H.264 films with fast start
+//   public/media/films/<slug>.mp4             upright H.264 + AAC films with fast start
 //   public/og/r7-og.jpg                       default social-sharing image
 //   public/brand/r7-mark{,-light}.webp        logo for light / dark backgrounds
 //   app/icon.png, app/apple-icon.png, app/favicon.ico
@@ -101,13 +101,17 @@ async function prepareFilm(film, written, tmpDir) {
     // Trims thin black strips some exports carry along one edge.
     if (film.crop) filters.push(`crop=${film.crop}`)
     filters.push('scale=trunc(iw/2)*2:trunc(ih/2)*2')
-    const trim = film.trim ? ['-ss', String(film.trim.start), '-t', String(film.trim.end - film.trim.start)] : []
+    const length = film.trim ? film.trim.end - film.trim.start : null
+    const trim = film.trim ? ['-ss', String(film.trim.start), '-t', String(length)] : []
+    // Excerpts end mid-soundtrack, so fade the audio out over the last second.
+    const audioFade = length ? ['-af', `afade=t=out:st=${Math.max(0, length - 1)}:d=1`] : []
     run('ffmpeg', [
       '-y', '-v', 'error', '-i', input, ...trim,
-      '-vf', filters.join(','), '-an',
+      '-vf', filters.join(','), ...audioFade,
       // Sources are already compressed 720p reels; cap the bitrate so re-encoding never inflates them.
       '-c:v', 'libx264', '-preset', 'slow', '-crf', '26', '-maxrate', '1600k', '-bufsize', '3200k',
       '-profile:v', 'high', '-pix_fmt', 'yuv420p',
+      '-c:a', 'aac', '-b:a', '128k', '-ac', '2',
       '-movflags', '+faststart', out,
     ])
   }

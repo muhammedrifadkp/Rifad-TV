@@ -40,8 +40,8 @@ export default async function AboutPage({ params }: PageProps<'/[locale]/about'>
 
       <section className="page-gutter mx-auto grid max-w-page gap-12 pt-10 pb-24 md:grid-cols-12 md:gap-10 md:pt-20">
         <div className="md:col-span-5">
-          <figure className="hero-rise relative aspect-[3/4] overflow-hidden bg-bone md:sticky md:top-28">
-            <PhotoImage photo={portrait} cover preload sizes="(min-width: 768px) 38vw, 100vw" />
+          <figure className="relative aspect-[3/4] overflow-hidden bg-bone md:sticky md:top-28">
+            <PhotoImage photo={portrait} cover preload sizes="(min-width: 768px) 38vw, 67vw" />
           </figure>
         </div>
 

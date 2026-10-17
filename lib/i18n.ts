@@ -17,8 +17,12 @@ export function otherLocale(locale: Locale): Locale {
   return locale === 'en' ? 'ar' : 'en'
 }
 
-/** Builds a locale-prefixed path, e.g. localePath('ar', '/work') -> '/ar/work'. */
+/**
+ * Public URL for a route. English lives at the site root ("/work"); Arabic is
+ * prefixed ("/ar/work"). next.config.ts rewrites unprefixed URLs to app/[locale].
+ */
 export function localePath(locale: Locale, path = '/'): string {
+  if (locale === defaultLocale) return path
   return path === '/' ? `/${locale}` : `/${locale}${path}`
 }
 

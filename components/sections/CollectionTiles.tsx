@@ -25,7 +25,7 @@ export function CollectionTiles({ locale, t, viewLabel }: { locale: Locale; t: M
                 <PhotoImage
                   photo={{ ...photo, alt: '' }}
                   cover
-                  sizes={i % 2 === 0 ? '(min-width: 768px) 55vw, 100vw' : '(min-width: 768px) 40vw, 100vw'}
+                  sizes={i % 2 === 0 ? '(min-width: 768px) 55vw, 67vw' : '(min-width: 768px) 40vw, 67vw'}
                   className="transition-transform duration-[1400ms] ease-editorial group-hover:scale-[1.03] motion-reduce:transition-none"
                 />
               </span>

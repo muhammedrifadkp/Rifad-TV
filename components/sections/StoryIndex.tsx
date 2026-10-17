@@ -26,7 +26,7 @@ export function StoryIndex({ stories, locale, t }: { stories: Story[]; locale: L
                   <PhotoImage
                     photo={{ ...toPhoto(story.cover, locale), alt: '' }}
                     cover
-                    sizes="(min-width: 768px) 38vw, 100vw"
+                    sizes="(min-width: 768px) 38vw, 67vw"
                     className="transition-transform duration-[1400ms] ease-editorial group-hover:scale-[1.03] motion-reduce:transition-none"
                   />
                 </span>

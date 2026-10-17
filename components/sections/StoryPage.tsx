@@ -1,12 +1,11 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { notFound } from 'next/navigation'
 import { Gallery, type GalleryGroup } from '@/components/gallery/Gallery'
 import { PhotoImage } from '@/components/media/PhotoImage'
 import { PageIntro } from '@/components/sections/PageIntro'
 import { Arrow } from '@/components/ui/Arrow'
-import { getStory, storyPages, type Story } from '@/lib/content'
-import { format, localePath, locales, type Locale } from '@/lib/i18n'
+import { getStory, storyPages, type Story, type StoryKey } from '@/lib/content'
+import { format, localePath, type Locale } from '@/lib/i18n'
 import { galleryLabels } from '@/lib/labels'
 import { getImage, storySlugs, toPhoto, type Chapter } from '@/lib/media'
 import { resolveLocale, type Messages } from '@/lib/messages'
@@ -14,19 +13,14 @@ import { pageMetadata } from '@/lib/metadata'
 
 const chapterOrder: Chapter[] = ['bride', 'nikah', 'together', 'portraits']
 
-export function generateStaticParams() {
-  return locales.flatMap((locale) => storyPages.map((s) => ({ locale, slug: s.key })))
-}
+// Shared by the fixed routes in app/[locale]/stories/*. Fixed routes (rather than [slug])
+// mean an unknown story URL gets a real 404 without any request-time code.
 
-function findStory(slug: string): Story {
-  const story = getStory(slug)
-  if (!story?.hasPage) notFound()
-  return story
-}
+type Params = Promise<{ locale: string }>
 
-export async function generateMetadata({ params }: PageProps<'/[locale]/stories/[slug]'>): Promise<Metadata> {
+export async function storyMetadata(params: Params, key: StoryKey): Promise<Metadata> {
   const { locale, t } = await resolveLocale(params)
-  const story = findStory((await params).slug)
+  const story = getStory(key) as Story
   const copy = t.stories[story.key]
   return pageMetadata(locale, story.href, copy.title, copy.intro)
 }
@@ -45,9 +39,9 @@ function groupsFor(story: Story, locale: Locale, t: Messages): GalleryGroup[] {
     .filter((g) => g.photos.length > 0)
 }
 
-export default async function StoryPage({ params }: PageProps<'/[locale]/stories/[slug]'>) {
+export async function StoryPage({ params, storyKey }: { params: Params; storyKey: StoryKey }) {
   const { locale, t } = await resolveLocale(params)
-  const story = findStory((await params).slug)
+  const story = getStory(storyKey) as Story
   const copy = t.stories[story.key]
   const slugs = storySlugs(story.key)
   const cover = toPhoto(story.cover, locale)
@@ -71,13 +65,10 @@ export default async function StoryPage({ params }: PageProps<'/[locale]/stories
 
       {/* Opening diptych: portrait frames side by side rather than a destructive wide crop. */}
       <div className="page-gutter mx-auto grid max-w-page gap-4 sm:grid-cols-12 sm:gap-8">
-        <figure className="hero-rise relative aspect-[4/5] overflow-hidden bg-bone sm:col-span-7">
-          <PhotoImage photo={cover} cover preload sizes="(min-width: 640px) 56vw, 100vw" />
+        <figure className="relative aspect-[4/5] overflow-hidden bg-bone sm:col-span-7">
+          <PhotoImage photo={cover} cover preload sizes="(min-width: 640px) 56vw, 67vw" />
         </figure>
-        <figure
-          className="hero-rise relative hidden aspect-[3/4] self-end overflow-hidden bg-bone sm:col-span-5 sm:block"
-          style={{ ['--rise-delay' as string]: '200ms' }}
-        >
+        <figure className="relative hidden aspect-[3/4] self-end overflow-hidden bg-bone sm:col-span-5 sm:block">
           <PhotoImage photo={second} cover sizes="40vw" />
         </figure>
       </div>
@@ -96,7 +87,7 @@ export default async function StoryPage({ params }: PageProps<'/[locale]/stories
             <Arrow direction="forward" className="mt-6 w-12 transition-transform duration-500 group-hover:translate-x-2 rtl:-scale-x-100 rtl:group-hover:-translate-x-2" />
           </span>
           <span className="relative block aspect-[16/10] overflow-hidden bg-bone md:col-span-5">
-            <PhotoImage photo={{ ...toPhoto(next.cover, locale), alt: '' }} cover sizes="(min-width: 768px) 40vw, 100vw" />
+            <PhotoImage photo={{ ...toPhoto(next.cover, locale), alt: '' }} cover sizes="(min-width: 768px) 40vw, 67vw" />
           </span>
         </Link>
       </nav>

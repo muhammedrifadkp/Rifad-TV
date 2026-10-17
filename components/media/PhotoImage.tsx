@@ -3,6 +3,10 @@ import type { Photo } from '@/lib/media'
 
 type Props = {
   photo: Photo
+  /**
+   * Phone fallbacks across the site use about two-thirds of the true width (e.g. 67vw for a
+   * full-width image), so 3× phone screens download 2×-density files: sharp, and far lighter.
+   */
   sizes: string
   className?: string
   /** Crop to the parent box (cover). Otherwise the photo keeps its natural aspect ratio. */
