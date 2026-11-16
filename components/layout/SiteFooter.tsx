@@ -63,7 +63,22 @@ export function SiteFooter({ locale, t }: { locale: Locale; t: Messages }) {
         </div>
       </div>
       <div className="page-gutter mx-auto flex max-w-page flex-col gap-3 border-t border-line py-6 text-sm text-stone sm:flex-row sm:items-center sm:justify-between">
-        <p>{t.footer.rights}</p>
+        <div className="flex flex-col gap-1.5 md:flex-row md:items-center md:gap-4">
+          <p>{t.footer.rights}</p>
+          <span aria-hidden="true" className="hidden text-line md:inline">
+            ·
+          </span>
+          <a
+            href="https://www.rifad.site"
+            target="_blank"
+            rel="noopener noreferrer"
+            dir="ltr"
+            lang="en"
+            className="link-underline w-fit transition-colors hover:text-charcoal"
+          >
+            Website by Muhammed Rifad
+          </a>
+        </div>
         <a href="#top" className="link-underline">
           {t.footer.backToTop}
         </a>
